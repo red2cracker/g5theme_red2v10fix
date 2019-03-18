@@ -69,11 +69,11 @@ if(($member['mb_level'] >= $moveup_level) || $is_admin) {
                 $link = cut_str($view['link'][$i], 70);
             ?>
             <li>
-                <i class="fa fa-link" aria-hidden="true"></i> <a href="<?php echo $view['link_href'][$i] ?>" target="_blank">
+                <a href="<?php echo $view['link_href'][$i] ?>"><i class="fa fa-link" aria-hidden="true"></i> <!-- target="_blank" -->
                     
                     <!-- <strong> --><?php echo $link ?><!-- </strong> -->
-                </a>
-                <span class="bo_v_link_cnt"><?php echo $view['link_hit'][$i] ?>회 연결</span>
+                
+                <span class="bo_v_link_cnt"><?php echo $view['link_hit'][$i] ?>회</span></a>
             </li>
             <?php
             }
