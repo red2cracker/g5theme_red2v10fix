@@ -180,7 +180,7 @@ padding-right:6px;text-decoration:none !important;/*position:relative;top:-5px;*
 .bo_tit a:hover {color:#ff0000;text-decoration:none;}
 
 
-.bo_current {color:#e8180c}
+.bo_current {/*color:#e8180c;*/color:#f00;font-weight:bold;}
 /*#bo_list .profile_img {display:inline-block;margin-right:2px}*/
 #bo_list .profile_img img{border-radius:50%}
 #bo_list .cnt_cmt{/*background:#5c85c1;color:#000;*/ font-size:14px;height:16px;line-height:16px;/*padding:0 5px;border-radius:3px;vertical-align:middle;*/
@@ -321,6 +321,11 @@ display:inline-block;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;p
 
 #bo_list .td_subject i {/*margin-left:5px;*/position:relative;top:-1px;}
 
+
+#bo_list .td_subject .bo_tit a:link {color: #00f;}
+#bo_list .td_subject .bo_tit a:hover {color: #f00 !important;}
+#bo_list .td_subject .bo_tit a:visited {color: #00f;}
+
 /* 스타일 끝 */
 }
 
@@ -393,7 +398,7 @@ html.no-overflowscrolling #autosave_pop {height:auto;max-height:10000px !importa
 box-shadow: inset 0 2px 5px rgb(33, 135, 202);
 }
 #bo_v_title .bo_v_tit{display:block;font-size:1.3rem;/*2rem;*/margin:0px;word-break:break-all;font-weight: bold}
-#bo_v .bo_v_board_title{font-size:1.5rem;font-weight: bold}
+#bo_v .bo_v_board_title{font-size:1.5rem;font-weight: bold;margin-bottom:20px;}
 #bo_v .bo_v_board_title a:hover{color:#ff0000;text-decoration:none;}
 
 #bo_v_info {padding: 10px 0 15px;margin:0 0 20px;border-bottom:1px solid #ddd;color:#666}
