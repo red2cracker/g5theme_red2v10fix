@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+/* 개별 페이지 */
+
+.ind-page a:link, .ind-page a:visited {
+  color: #00f;
+}
+
+.ind-page a:focus, .ind-page a:hover {
+  color: #f00;
+  text-decoration: underline;
+}
+
+
+.ind-page ul {
+  padding-left: 20px;
+  list-style: disc;
+}
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+/* 운영진 스타일 */
+.container-staff {
+  display: flex;
+  /*border: 1px solid #000;*/
+  width: 100%;
+  margin: 1rem 0 1rem 0;
+}
+
+.container-staff .item {
+  /*border: 1px solid #000;*/
+}
+
+.container-staff .image {
+  margin-right: 10px;
+  flex: 150px 0;
+}
+
+.container-staff .desc {
+  flex: 1;
+}
+
+.container-staff .desc p:first-child {
+  /*margin: 0;*/
+}
+
+
+/* 연혁 스타일 */
+.container-history {
+  display: block;
+  /*border: 1px solid #000;*/
+  width: 100%;
+}
+
+.container-history .history-row {
+  display: flex;
+  /*border: 1px solid #000;*/
+  width: 100%;
+}
+
+.container-history .item {
+  /*border: 1px solid #000;*/
+  margin: 3px;
+  padding: 9px;
+  /*background-color: #ecf0f1;*/
+}
+
+.container-history .date {
+  /*margin-right: 10px;*/
+  flex: 150px 0;
+  /*font-weight: bold;*/
+}
+
+.container-history .desc {
+  flex: 1;
+}
+
+.container-history .desc p:first-child {
+  margin: 0;
+}
+
+.container-history h2 {
+  margin-top: 0px;
+}
+
+.container-history .desc p:last-child {
+  margin-bottom: 0;
+}
+
+}
+
