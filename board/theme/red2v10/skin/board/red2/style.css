@@ -203,7 +203,7 @@ display:inline-block;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;p
 #bo_list .subject_trim{max-width: 310px;}
 }
 @media (min-width: 1440px) {
-#bo_list .subject_trim{max-width: none;}
+#bo_list .subject_trim{max-width: 500px;}
 }
 
 /* 게시판 목록 스마트폰 스타일 */
@@ -493,7 +493,7 @@ overflow:hidden;white-space:nowrap;text-overflow:ellipsis;padding-top:5px;}
 #bo_v_img a.view_image{display:block}
 #bo_v_img img {margin-bottom:20px;max-width:100%;height:auto}
 
-#bo_v_con {margin:10px 0 30px;width:100%;line-height:1.7em;min-height:200px;word-break:break-all;overflow:hidden}
+#bo_v_con {margin:10px 0 30px;width:100%;line-height:1.7em;/*min-height:200px;*/word-break:break-all;overflow:hidden}
 #bo_v_con a {color:#000;text-decoration:underline}
 #bo_v_con img {max-width:100%;height:auto}
 
