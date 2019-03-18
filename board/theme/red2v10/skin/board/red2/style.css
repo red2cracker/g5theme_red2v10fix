@@ -324,7 +324,12 @@ display:inline-block;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;p
 
 #bo_list .td_subject .bo_tit a:link {color: #00f;}
 #bo_list .td_subject .bo_tit a:hover {color: #f00 !important;}
-#bo_list .td_subject .bo_tit a:visited {color: #00f;}
+#bo_list .td_subject .bo_tit a:visited {color: #800080;}
+#bo_list .td_subject .bo_tit a:active {color: #f00;}
+
+#bo_list .bo_notice .td_name, #bo_list .bo_notice .td_datetime, #bo_list .bo_notice .td_num {
+    border-bottom: 1px solid #ccc;
+}
 
 /* 스타일 끝 */
 }
