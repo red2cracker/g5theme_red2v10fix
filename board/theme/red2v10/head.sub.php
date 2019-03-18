@@ -34,7 +34,7 @@ header("Pragma: no-cache"); // HTTP/1.0
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="theme-color" content="#343a40">
+<!--<meta name="theme-color" content="#343a40">-->
 <?php
 /*
 if (G5_IS_MOBILE) {

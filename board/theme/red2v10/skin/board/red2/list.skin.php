@@ -119,7 +119,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
                     <?php
                     // if ($list[$i]['file']['count']) { echo '<'.$list[$i]['file']['count'].'>'; }
                     // if (isset($list[$i]['icon_file'])) echo rtrim($list[$i]['icon_file']);
-                    if (isset($list[$i]['icon_link'])) echo rtrim($list[$i]['icon_link']);
+                    // if (isset($list[$i]['icon_link'])) echo rtrim($list[$i]['icon_link']);
                     // if (isset($list[$i]['icon_new'])) echo rtrim($list[$i]['icon_new']);
                     // if (isset($list[$i]['icon_hot'])) echo rtrim($list[$i]['icon_hot']);
                     ?>
