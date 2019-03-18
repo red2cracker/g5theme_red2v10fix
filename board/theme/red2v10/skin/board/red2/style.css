@@ -626,10 +626,10 @@ box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);}
 
 /* 서명 */
 /*
-#bo_v .bo_v_signature p a:link {color: #00f !important;}
-#bo_v .bo_v_signature p a:visited {color: #00f !important;}
-#bo_v .bo_v_signature p a:hover {color: #f00 !important;}
-#bo_v .bo_v_signature p a:active {color: #f00 !important;}
+#bo_v .bo_v_signature_wrap a:link {color: #00f !important;}
+#bo_v .bo_v_signature_wrap a:visited {color: #00f !important;}
+#bo_v .bo_v_signature_wrap a:hover {color: #f00 !important;}
+#bo_v .bo_v_signature_wrap a:active {color: #f00 !important;}
 */
 
 /* 댓글 */
