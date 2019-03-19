@@ -1,6 +1,9 @@
 <?php
 include_once('./_common.php');
 
+include_once('./_head.php'); 
+goto_url('./register_form.php'); 
+
 // 로그인중인 경우 회원가입 할 수 없습니다.
 if ($is_member) {
     goto_url(G5_URL);
