@@ -7,7 +7,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$member_skin_url.'/style.css">', 
 
 <!-- 로그인 시작 { -->
 <div id="mb_login" class="mbskin">
-    <div class="go_back"><a href="../" title="Red2.net 홈">Red2.net</a></div>
+    <div class="go_back"><a href="../" title="Red2.net 홈"><i class="fa fa-home" aria-hidden="true"></i> Red2.net</a></div>
 
     <h1><!--<a href="../" title="Red2.net 홈"><img src="<?php echo G5_THEME_URL ?>/skin/member/red2/img/red2mamm_page.png"></a> --><?php echo $g5['title'] ?></h1>
 
