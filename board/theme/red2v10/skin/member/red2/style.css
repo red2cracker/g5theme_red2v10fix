@@ -31,7 +31,7 @@
 .mbskin a.btn_admin:focus, .mbskin a.btn_admin:hover {}
 
 /* 기본박스 */
-.mbskin{position: relative;margin:30px auto 0;/*100px auto 0;*/border:1px solid #ddd;width:100%;/*400px*/background:#fff;text-align:center;
+.mbskin{position: relative;margin:0px auto;/*100px auto 0;*/border:1px solid #ddd;width:100%;/*400px*/background:#fff;text-align:center;
 }
 
 /* 태블릿, PC */
