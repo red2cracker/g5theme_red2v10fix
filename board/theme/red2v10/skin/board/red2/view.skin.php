@@ -24,7 +24,7 @@ if(($member['mb_level'] >= $moveup_level) || $is_admin) {
 }
 ?>
 
-<script src="<?php echo G5_JS_URL; ?>/viewimageresize.js"></script>
+<!-- <script src="<?php //echo G5_JS_URL; ?>/viewimageresize.js"></script> -->
 
 <!-- 게시물 읽기 시작 { -->
 
