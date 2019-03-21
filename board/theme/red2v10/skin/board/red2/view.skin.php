@@ -204,7 +204,7 @@ $(function() {
     });
 
     // 이미지 리사이즈
-    $("#bo_v_atc").viewimageresize();
+    // $("#bo_v_atc").viewimageresize();
 
     //sns공유
     $(".btn_share").click(function(){
