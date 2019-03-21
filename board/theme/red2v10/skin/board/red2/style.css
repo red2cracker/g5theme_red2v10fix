@@ -466,10 +466,10 @@ overflow:hidden;white-space:nowrap;text-overflow:ellipsis;padding-top:5px;}
 #bo_v_bot h2 {position:absolute;font-size:0;line-height:0;overflow:hidden}
 #bo_v_bot ul {padding:0;list-style:none}
 
-.bo_v_com {margin:0px 0px 10px 0px;float:right}/*margin:20px 0;*/
+.bo_v_com {margin:0px 0px 20px 0px;float:right}/*margin:20px 0;*/
 .bo_v_com li {float:left;margin-left:5px}
 
-.bo_v_left {margin:0px 0px 10px 0px;float:left}/*margin:20px 0;*/
+.bo_v_left {margin:0px 0px 20px 0px;float:left}/*margin:20px 0;*/
 .bo_v_left li {float:left;margin-right:5px}
 
 .bo_v_nb {margin:20px 0;position:relative;clear:both;text-align:left;border-bottom:1px solid #ddd}
