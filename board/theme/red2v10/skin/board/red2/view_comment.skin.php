@@ -7,7 +7,7 @@ if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
 var char_min = parseInt(<?php echo $comment_min ?>); // 최소
 var char_max = parseInt(<?php echo $comment_max ?>); // 최대
 </script>
-<button type="button" class="cmt_btn"><i class="fa fa-commenting-o" aria-hidden="true"></i> 댓글목록</button>
+<!-- <button type="button" class="cmt_btn"><i class="fa fa-commenting-o" aria-hidden="true"></i> 댓글목록</button> -->
 <!-- 댓글 시작 { -->
 <section id="bo_vc">
     <h2>댓글목록</h2>
@@ -76,7 +76,7 @@ var char_max = parseInt(<?php echo $comment_max ?>); // 최대
 
     </article>
     <?php } ?>
-    <?php if ($i == 0) { //댓글이 없다면 ?><p id="bo_vc_empty">등록된 댓글이 없습니다.</p><?php } ?>
+    <?php if ($i == 0) { //댓글이 없다면 ?><!-- <p id="bo_vc_empty">등록된 댓글이 없습니다.</p> --><?php } ?>
 
 </section>
 <!-- } 댓글 끝 -->
@@ -313,13 +313,13 @@ $(function() {
     );
 });
 <?php } ?>
-$(function() {            
+/* $(function() {            
     //댓글열기
     $(".cmt_btn").click(function(){
         $(this).toggleClass("cmt_btn_op");
         $("#bo_vc").toggle();
     });
-});
+}); */
 </script>
 <?php } ?>
 <!-- } 댓글 쓰기 끝 -->

@@ -466,10 +466,10 @@ overflow:hidden;white-space:nowrap;text-overflow:ellipsis;padding-top:5px;}
 #bo_v_bot h2 {position:absolute;font-size:0;line-height:0;overflow:hidden}
 #bo_v_bot ul {padding:0;list-style:none}
 
-.bo_v_com {margin:20px 0;float:right}
+.bo_v_com {margin:0px 0px 10px 0px;float:right}/*margin:20px 0;*/
 .bo_v_com li {float:left;margin-left:5px}
 
-.bo_v_left {margin:20px 0;float:left}
+.bo_v_left {margin:0px 0px 10px 0px;float:left}/*margin:20px 0;*/
 .bo_v_left li {float:left;margin-right:5px}
 
 .bo_v_nb {margin:20px 0;position:relative;clear:both;text-align:left;border-bottom:1px solid #ddd}
@@ -485,7 +485,7 @@ overflow:hidden;white-space:nowrap;text-overflow:ellipsis;padding-top:5px;}
 .bo_v_nb a:hover {color:#f00;text-decoration:none;}
 
 
-#bo_v_atc {min-height:200px;height:auto !important;height:200px;padding:0px}
+#bo_v_atc {/*min-height:200px;*/height:auto !important;height:200px;padding:0px}
 #bo_v_atc_title {position:absolute;font-size:0;line-height:0;overflow:hidden}
 
 #bo_v_img {width:100%;overflow:hidden;zoom:1}
@@ -536,7 +536,7 @@ overflow:hidden;white-space:nowrap;text-overflow:ellipsis;padding-top:5px;}
 .cmt_btn_op{background:url('./img/cmt_btn.png') no-repeat 110px  -15px}
 #bo_vc {padding:0px;}
 #bo_vc h2 {position:absolute;font-size:0;line-height:0;overflow:hidden}
-#bo_vc article {margin:20px 0;position:relative}
+#bo_vc article {margin:0px;position:relative}/* margin:20px 0; */
 #bo_vc article .profile_img img{border-radius:50%}
 #bo_vc header {}
 #bo_vc header:after {display:block;visibility:hidden;clear:both;content:""}
