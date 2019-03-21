@@ -348,7 +348,7 @@ display:inline-block;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;p
 #bo_list .bo_tit .fa-lock{display: inline-block;line-height: 14px;width: 16px;font-size: 0.833em;color: #4f818c;background: #cbe3e8;text-align: center;border-radius: 2px;font-size: 12px;border:1px solid #a2c6ce}
 
 @media (max-width: 320px) {
-#bo_sch .sch_input{width:106px !important;}
+#bo_sch .sch_input{width:96px !important;} /* width:106px */
 }
 
 #bo_sch {float:left;border:1px solid #000;background:#fff;border-radius:3px} /* #ccc */
