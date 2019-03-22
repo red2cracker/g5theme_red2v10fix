@@ -1,0 +1,65 @@
+@charset "utf-8";
+
+/* 아웃로그인 스킨 */
+#ol_after_m h2 {
+	display: none;
+}
+
+#ol_before_m {
+	margin-top: 0.5rem;
+	color: #fff;
+}
+
+
+#ol_before_m a:link,
+#ol_before_m a:visited {
+	color: #fff;
+	/*text-decoration: none;*/
+}
+#ol_before_m a:hover,
+#ol_before_m a:active {
+	color: #f00;
+	/*text-decoration: none;*/
+}
+
+#ol_after_m {
+	margin-top: 0.5rem;
+	color: #fff;
+}
+
+#ol_after_m a:link,
+#ol_after_m a:visited {
+	color: #fff;
+	/*text-decoration: none;*/
+}
+#ol_after_m a:hover,
+#ol_after_m a:active {
+	color: #f00;
+	/*text-decoration: none;*/
+}
+
+/* 관리자 버튼에 마우스 올릴 때 */
+/*#ol_after_hd_m a:hover {
+	color: #fff;
+}*/
+
+a.btn_admin {
+  color: #fff !important;
+  text-decoration: none !important;
+  padding: 2px 10px;
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+/* 모바일 로그인은 태블릿부터 보이지 않음 */
+#ol_before_m {
+  display: none;
+}
+
+#ol_after_m {
+  display: none;
+}
+
+}
