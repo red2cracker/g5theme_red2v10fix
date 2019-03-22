@@ -91,7 +91,7 @@ if($pagename == "memo.php") {
 <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">-->
 
 <link rel="stylesheet" href="<?php echo G5_THEME_CSS_URL; ?>/red2style.css">
-<link rel="stylesheet" href="<?php echo G5_THEME_CSS_URL; ?>/red2page.css">
+<!--<link rel="stylesheet" href="<?php echo G5_THEME_CSS_URL; ?>/red2page.css">-->
 <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 <link rel="shortcut icon" href="<?php echo G5_THEME_IMG_URL; ?>/red2fav.ico" type="image/x-icon" />
 <!-- 파비콘. 경로에 상수 사용 -->

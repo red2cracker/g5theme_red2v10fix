@@ -1,7 +1,7 @@
 $(function(){
 
 //$('.test_jquery').css('background-color', 'red');
-	
+
 $('div.main-menu').hover(function() {
   $('.main-link').css("color", "red");
 }, function(){
